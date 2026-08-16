@@ -1,7 +1,7 @@
 
-[![Email](https://img.shields.io/badge/Contact-Email_Me-informational?style=for-the-badge&logo=gmail)](mailto:TODO@example.com)
-[![GitHub](https://img.shields.io/badge/GitHub-TODO--username-181717?style=for-the-badge&logo=github)](https://github.com/TODO-username)
-![Last Commit](https://img.shields.io/github/last-commit/TODO-username/TODO-repo?style=for-the-badge&logo=github)
+[![Email](https://img.shields.io/badge/Contact-Email_Me-informational?style=for-the-badge&logo=gmail)](mailto:dpharmon@yahoo.com)
+[![GitHub](https://img.shields.io/badge/GitHub-DPHarmon-181717?style=for-the-badge&logo=github)](https://github.com/DPHarmon)
+![Last Commit](https://img.shields.io/github/last-commit/DPHarmon/DPHarmon.github.io?style=for-the-badge&logo=github)
 
 # Dylan Harmon
 
