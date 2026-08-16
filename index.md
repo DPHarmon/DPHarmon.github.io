@@ -50,14 +50,12 @@ in the plan; we will write this section last, once the artifact sections exist.
 
 ## Code Review
 
-TODO - Two or three sentences on what the code review covers and why it matters.
+The following video is my code review for the original artifacts. In the Code Review I briefly cover all three artifacts and walk through what the existing code does, where it falls short, and what I planned to do about it.
+The code review establishes a baseline and forced me to articulate and discover short comings or potential improvement rather than working from memory.
 
-<!-- Clickable video thumbnail. YouTube serves a still frame for every video at
-     the URL below, so this renders as a real preview image rather than a
-     bare link. Replace VIDEO_ID in BOTH places. -->
 <div align="center">
-  <a href="https://youtu.be/VIDEO_ID" title="CS-499 Code Review">
-    <img src="https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg" width="480" alt="Watch the code review" />
+  <a href="https://youtu.be/uFwTGa-f-Kk" title="CS-499 Code Review">
+    <img src="https://img.youtube.com/vi/uFwTGa-f-Kk/hqdefault.jpg" width="480" alt="Watch the code review" />
   </a>
   <p><em>Code review of the three original artifacts - CS-499 Capstone</em></p>
 </div>
