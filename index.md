@@ -56,12 +56,37 @@ I am excited for my future and to continue working with and furthering my educat
 in *making it run*, instead the interesting work comes in the questions about *how it behaves under input I did not anticipate, users I did not plan for,
 and readers who need something I hadn't anticipated*.
 
-In this Capstone we were tasked with returning to prior work and building an enhancement plan that met certain course outcomes. The place I noticed the most
-technical growth was in the before and after of my Course Planner app. It was from one of my first programming classes at SNHU. I was still getting used to IDEs,
-I was learning Data Structures and misunderstanding the intricate parts of what I was learning. I would get hyper focused on a single way to achieve something. Last
-but not least I had not learned about the importance of structure or separation of concerns. My original artifact is a single file, and during my code review I was
-really struggling to see what all the parts did, or why I approached the *problem* in the way I had. Rebuilding it taught me more than writing it the first time did. 
-Separating the single file into domain, data structure, data access, and application layers helped immediately when it came to debugging. 
+The CS program started me where everyone starts, with *syntax*. Intro to Scripting and IT-145 taught me how to make a computer do what I asked in Python and Java. CS-210
+broadened that into working across languages rather than inside of one, which is where I learned to stop thinking of a language as a thing to learn, and started to think
+of language as a tool I use to shape with. Then CS-300 (Data Structure and Algorithms) changed how I approached data. It taught me the importance of choosing the correct
+containers, how to approach the cost of a data structure, and how insert and search behave as input grows, as well as what memory I am spending to buy that behavior. Big-O
+stopped being notation I could recite and instead became a way to compare designs before writing a line of code.
+
+CS-250 - Software Development Lifecycle - gave that reasoning a place to live. CS-250 taught me that most of the cost of software is not in writing it, and that the structure
+decided early can make changes cheap or expensive. Separation of concerns, encapsulation, modularity, these sound abstract until the first time you have to change something in
+a program that ignores them (For instance my enhancement on the Course Planner artifact). CS-230 taught me the importance of considering the platforms and environments that
+software actually runs on.
+
+Security is an area I have found to be fascinating, and CS-305 (Software Security) is where I first started to understand why. Its because security is a mindset applied
+throughout development rather than a phase applied at the end. That means secure coding standards and defensive programming, validating input at every boundary, and understanding
+cryptographic fundamentals well enough to use them correctly - such as hashing and salting, key derivation - and why implementation details matter as much as the algorithms used.
+It means applying least privilege and zero-trust procedures by default, and thinking like an adversary about my own code so I am the one that finds the weakness first. CS-320 took
+that and applied it to testing where I learned the importance of Quality Assurance, Functional vs. Non-Functional testing, Manual vs. Automated tests, and Verification vs. Validation.
+
+DAD-220 and CS-340 taught me about different data storage models. Relational databases with SQL and document databases with MongoDB, both courses together taught me that how I structure
+data determines what questions you can ask of it later. Schema design, indexing strategy, moving computation into the datastore instead of into application code are lessons that changed how I
+approach any data-backed system. Working with aggregation and visualization took that further and I learned that the difference between a technically correct result and a genuinely useful one
+are very different and the importance of knowing how to create useful visualizations is a requirement in my upcoming career.
+
+During my time at SNHU I was exposed to a wide range of important and relevant topics. CS-360 let me dip my toes into mobile architecture, and the constraints of building for a specific devise rather 
+than a server or web app. In CS-319 (UX/UI) I was taught user-centered design which made clear that the interface is part of the engineering rather than decoration applied to it.
+CS-465 covered my prior learning with a full stack development that covered front end UI, back end database, and API design. None of these made me an expert in any specific area. Together they made me better,
+and gave me the foundation to go deep in whichever one a job asked for.
+
+What I want to say is that this program left me wanting more of it. The parts of every project I enjoyed most were the parts that went deeper than the assignment required, the rabbit holes I would fall into when
+learning about something new. That curiosity is what I am bringing to my first role: real systems, people who know more than I do waiting for my questions, and problems that reward not stopping at the first working
+answer. My journey if nothing else has proved that Computer Science is the correct route for me, and I am excited to keep going down this path.
+
 
 <div align="right">
   <a href="#contents">Back to top &#8593;</a>
