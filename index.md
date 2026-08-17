@@ -115,7 +115,7 @@ The code review establishes a baseline and forced me to articulate and discover 
 ## Enhancement One: Software Design and Engineering
 
 <div align="center">
-  <a href="Enhancement-One" title="Enhancement One write-up">
+  <a href="Enhancement-One.md" title="Enhancement One write-up">
     <img src="https://img.shields.io/badge/Read-Full_Write--up-informational?style=for-the-badge&logo=markdown" alt="Full write-up" />
   </a>
   <a href="https://github.com/DPHarmon/DPHarmon.github.io/tree/main/enhancement/CS360-Inventory-Mobile-App" title="Warehouse Inventory App source">
