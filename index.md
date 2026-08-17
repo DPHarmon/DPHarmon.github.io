@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 [![Email](https://img.shields.io/badge/Contact-Email_Me-informational?style=for-the-badge&logo=gmail)](mailto:dpharmon@yahoo.com)
 [![GitHub](https://img.shields.io/badge/GitHub-DPHarmon-181717?style=for-the-badge&logo=github)](https://github.com/DPHarmon)
 ![Last Commit](https://img.shields.io/github/last-commit/DPHarmon/DPHarmon.github.io?style=for-the-badge&logo=github)
