@@ -145,7 +145,7 @@ The code review establishes a baseline and forced me to articulate and discover 
 ## Enhancement Two: Algorithms and Data Structures
 
 <div align="center">
-  <a href="Enhancement-Two" title="Enhancement Two write-up">
+  <a href="Enhancement-Two.md" title="Enhancement Two write-up">
     <img src="https://img.shields.io/badge/Read-Full_Write--up-informational?style=for-the-badge&logo=markdown" alt="Full write-up" />
   </a>
   <a href="https://github.com/DPHarmon/DPHarmon.github.io/tree/main/enhancement/CS300-CoursePlanner" title="Course Planner source">
@@ -175,7 +175,7 @@ The code review establishes a baseline and forced me to articulate and discover 
 ## Enhancement Three: Databases
 
 <div align="center">
-  <a href="Enhancement-Three" title="Enhancement Three write-up">
+  <a href="Enhancement-Three.md" title="Enhancement Three write-up">
     <img src="https://img.shields.io/badge/Read-Full_Write--up-informational?style=for-the-badge&logo=markdown" alt="Full write-up" />
   </a>
   <a href="https://github.com/DPHarmon/DPHarmon.github.io/tree/main/enhancement/CS465-Full-Stack" title="Travlr Getaways source">
