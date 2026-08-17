@@ -118,7 +118,7 @@ The code review establishes a baseline and forced me to articulate and discover 
   <a href="Enhancement-One" title="Enhancement One write-up">
     <img src="https://img.shields.io/badge/Read-Full_Write--up-informational?style=for-the-badge&logo=markdown" alt="Full write-up" />
   </a>
-  <a href="https://github.com/DPHarmon/DPHarmon.github.io/tree/main/enhancement/CS360-InventoryApp" title="Warehouse Inventory App source">
+  <a href="https://github.com/DPHarmon/DPHarmon.github.io/tree/main/enhancement/CS360-Inventory-Mobile-App" title="Warehouse Inventory App source">
     <img src="https://img.shields.io/badge/View-Code-blueviolet?style=for-the-badge&logo=github" alt="View the code" />
   </a>
 </div>
@@ -178,7 +178,7 @@ The code review establishes a baseline and forced me to articulate and discover 
   <a href="Enhancement-Three" title="Enhancement Three write-up">
     <img src="https://img.shields.io/badge/Read-Full_Write--up-informational?style=for-the-badge&logo=markdown" alt="Full write-up" />
   </a>
-  <a href="https://github.com/DPHarmon/DPHarmon.github.io/tree/main/enhancement/CS465-travlr" title="Travlr Getaways source">
+  <a href="https://github.com/DPHarmon/DPHarmon.github.io/tree/main/enhancement/CS465-Full-Stack" title="Travlr Getaways source">
     <img src="https://img.shields.io/badge/View-Code-blueviolet?style=for-the-badge&logo=github" alt="View the code" />
   </a>
 </div>
