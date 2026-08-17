@@ -1,0 +1,38 @@
+/**
+*   Dashboard Styles
+*  
+*   Date: 8/3/2026
+*   Author: 8/4/2026
+*/
+.chart-container {
+    position: relative;
+    height: 320px;
+    width: 100%;
+}
+
+/**
+* The doughnut chart reads better with less height.
+*/
+.card-header {
+    font-weight: 600;
+    background-color: #f8f8f8;
+}
+
+/*
+* Summary Card figures. Tabular numbers keep digits at a uniform width.
+* This way the 4 cards stay visually alighned regardless of their values.
+*/
+.card-title {
+    font-variant-numeric: tabular-nums;
+}
+
+/*
+* The detail table carries a fair number of numeric columns. Tabular numbers
+*   matter more here since right aligned figures of differing digit widths
+*   are difficult to read without them.
+*/
+.table td,
+.table th {
+    font-variant-numeric: tabular-nums;
+    vertical-align: middle;
+}

@@ -1,0 +1,10 @@
+.nav-link,
+.nav-link.active {
+    color: #e8a838;
+    cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #c98a20;
+}

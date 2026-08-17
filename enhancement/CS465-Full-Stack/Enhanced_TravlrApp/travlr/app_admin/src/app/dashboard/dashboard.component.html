@@ -1,0 +1,179 @@
+<!--
+    Dashboard Template
+
+    Canvas elements carry template referance variables that ViewChild queries
+    by name in the component. Those names match the strings passed to the
+    decorators.
+
+    Date: 8/3/2026
+    Author: Dylan P Harmon
+-->
+
+<div class="container-fluid mt-3">
+
+    <h2 class="mb-3">Booking Analytics</h2>
+
+    <!-- Populated only when a request fails  -->
+     <div *ngIf="message" class="alert alert-warning">
+        {{ message }}
+     </div>
+
+     <!-- Summary Cards
+        Guarded by an ngIf because summary arrives asynchronously and is
+        undefined until the response lands. Without the guard the template
+        would throw on the first pass. 
+     -->
+    <div class="row mb-4" *ngIf="summary">
+        <div class="col-md-3">
+            <div class="card text-center h-100">    
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Total Bookings
+                    </h6>
+                    <h3 class="card-title mb-0">
+                        {{ summary.totalBookings }}
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Completed
+                    </h6>
+                    <h3 class="card-title mb-0 text-success">
+                        {{ summary.completed }}
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Cancellation Rate
+                    </h6>
+                    <h3 class="card-title mb-0 text-danger">
+                        {{ summary.cancellationRate }}%
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Revenue Lost
+                    </h6>
+                    <h3 class="card-title mb-0 text-danger">
+                        {{ summary.lostRevenue | currency:'USD':'symbol':'1.0-0'}}
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Revenue by trip and monthly trend -->
+     <div class="row mb-4">
+        <div class="col-lg-7">
+            <div class="card h-100">
+                <div class="card-header">Revenue by Trip</div>
+                <div class="card-body">
+                    <!--
+                        The wrapper carries the height. Char.js sizes the
+                        cnavas to its container, and a canvas witrh no sized
+                        parent is collapsed to zero height.
+                    -->
+                    <div class="chart-container">
+                        <canvas #revenueCanvas></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="card h-100">
+                <div class="card-header">Booking Status</div>
+                    <div class="card-body">
+                        <div class="chart-container">
+                            <canvas #statusCanvas></canvas>
+                        </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <div class="row mb-4">
+        <div class="col-lg-7">
+            <div class="card h-100">
+                <div class="card-header">
+                    Monthly Revenue Trend
+                </div>
+                <div class="card-body">
+                    <div class="chart-container">
+                        <canvas #monthlyCanvas></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="card h-100">
+                <div class="card-header">
+                 Most Booked Trips
+                </div>
+                <div class="card-body">
+                    <div class="chart-container">
+                        <canvas #topTripsCanvas></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    Tabular Views of the same revenue data driving the first chart.
+
+    Charts communicate shape and ranking: Keeps numbers unreachable.
+    -->
+    <div class="card mb-4" *ngIf="revenueData.length">
+        <div class="card-header">Trip Performance Detail</div>
+        <div class="table-responsive">
+            <table class="table table-striped mb-0">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Trip</th>
+                        <th class="text-end">Bookings</th>
+                        <th class="text-end">Travelers</th>
+                        <th class="text-end">Revenue</th>
+                        <th class="text-end">Avg Booking</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let trip of revenueData">
+                        <td>{{ trip.tripCode }}</td>
+                        <td>{{ trip.tripName }}</td>
+                        <td class="text-end">{{ trip.bookingCount }}</td>
+                        <td class="text-end">{{ trip.totalTravelers }}</td>
+                        <td class="text-end">
+                            {{ trip.totalRevenue | currency:'USD':'symbol':'1.0-0' }}
+                        </td>
+                        <td class="text-end">
+                            {{ trip.avgBookingValue | currency:'USD':'symbol':'1.0-0' }}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</div>
+
+
+
+

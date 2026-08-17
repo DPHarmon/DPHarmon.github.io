@@ -1,0 +1,111 @@
+[
+    {
+        "code" : "GLAR210214",
+        "name" : "Gale Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-02-14T08:00:00Z",
+        "resort" : "Emerald Bay, 3 stars",
+        "perPerson" : "799.00",
+        "image" : "reef1.jpg",
+        "description" : "<p>Gale Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.</p> <p>Sed consequat libero ut turpis venenatis ut aliquam risus semper. Etiam convallis mi vel risus pretium sodales. Etiam nunc lorem ullamcorper vitae laoreet.<p/>"
+    } , {
+        "code" : "DAWR210315",
+        "name" : "Dawson's Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-03-15T08:00:00Z",
+        "resort" : "Blue Lagoon, 4 stars",
+        "perPerson" : "1199.00",
+        "image" : "reef2.jpg",
+        "description" : "<p>Dawson's Reef Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet aliquet quis, tristique quis nisl. Curabitur odio lacus, blandit ut hendrerit</p> <p>vulputate, vulputate at est. Morbi aliquet viverra metus eu consectetur. In lorem dui, elementum sit amet convallis ac, tincidunt vel sapien.</p>"
+    } , {
+        "code" : "CLAR210621",
+        "name" : "Claire's Reef",
+        "length" :"4 nights / 5 days",
+        "start" : "2021-06-21T08:00:00Z",
+        "resort" : "Coral Sands, 5 stars",
+        "perPerson" : "1999.00",
+        "image" : "reef3.jpg",
+        "description" : "<p>Claire's Reef Donec sed felis risus. Nulla facilisi. Donec a orci tellus, et auctor odio. Fusce ac orci nibh, quis semper arcu. Cras orci neque, euismod et accumsan ac, sagittis molestie lorem. Proin odio sapien, elementum at tempor non.</p> <p>Vulputate eget libero. In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. Quisque nec nunc ac mi ultrices iaculis.</p>"
+    } , {
+        "code": "HALL260308",
+        "name": "Hallstatt Lakeside",
+        "length": "6 nights / 7 days",
+        "start": "2026-03-08T08:00:00Z",
+        "resort": "Seehotel Gruner Baum, 4 stars",
+        "perPerson": "1899.00",
+        "image": "Austria.jpg",
+        "description": "<p>Hallstatt sits on a narrow shelf of land between an alpine lake and a near-vertical wall of limestone, and the village has barely changed shape in four centuries.</p> <p>The trip includes a guided descent into the salt mine above the village, the oldest still in operation anywhere, along with lake crossings by traditional wooden ferry and unhurried afternoons in the old town.<p/>"
+    } , {
+        "code": "CESK260516",
+        "name": "Cesky Krumlov Old Town",
+        "length": "3 nights / 4 days",
+        "start": "2026-05-16T08:00:00Z",
+        "resort": "Hotel Ruze, 4 stars",
+        "perPerson": "1349.00",
+        "image": "Cesky_Krumlov_Czech_Republic.jpg",
+        "description": "<p>Days are built around the castle complex and its baroque theater, one of very few anywhere with original stage machinery intact. Evenings are open, with riverside terraces, and a beautifull old town that transports you to the medieval era.<p/>"
+    } , {
+        "code": "MART260912",
+        "name": "Martins Beach Retreat",
+        "length": "3 nights / 4 days",
+        "start": "2026-09-12T08:00:00Z",
+        "resort": "Coastside Lodge, 3 stars",
+        "perPerson": "649.00",
+        "image": "Martins_Beach_California.jpg",
+        "description": "<p>A short drive south of Half Moon Bay, Martins Beach is a pocket of dark sand framed by sea stacks and a tidal creek that cuts a channel toward the surf. </p> <p>This is the shortest and most affordable trip in the catalog, built around tide pools, coastal hiking, and sunset photography. No structured itinerary beyond the guided tide walks. Enjoy your fun under the Cali sun. <p/>"
+    } , {
+        "code": "THAI260124",
+        "name": "Northern Thailand Tea Villages",
+        "length": "8 nights / 9 days",
+        "start": "2026-01-24T08:00:00Z",
+        "resort": "Ban Rak Thai Hillside, 3 stars",
+        "perPerson": "1099.00",
+        "image": "Meditate_Thailand.jpg",
+        "description": "<p>Tarraced tea rows climb the hills around Ban Rak Thai surrounded by traditional clay houses. Enjoy a spiritual and relaxing trip away from the big city noise. </p>"
+    } , {
+        "code": "TOKA260606",
+        "name": "Tokamachi Rice Terraces",
+        "length": "7 nights / 8 days",
+        "start": "2026-06-06T08:00:00Z",
+        "resort": "Matsunoyama Ryokan, 5 stars",
+        "perPerson": "2299.00",
+        "image": "RiceFields_Tokamachi_Japan.jpg",
+        "description": "<p>Experience the traditional rice fields of Tokamachi. Days spent in an abundance of natures beauty, and local hot spring baths, in the evenings traditional cuisine. </p>"
+    } , {
+        "code": "VIET261003",
+        "name": "Vietnam Highland Terraces",
+        "length": "6 nights / 7 days",
+        "start": "2026-10-03T08:00:00Z",
+        "resort": "Mu Cang Chai Lodge, 3 stars",
+        "perPerson": "899.00",
+        "image": "RiceFields_Vietnam.jpg",
+        "description": "<p>The terraces around Mu Cang Chai were cut into the slopes over generations. Experience the unique nature and history that fills the highlands of Vietnam. Enjoy nature walks and hikes with overnight stays in the Hmong Villages. Moderate fitness is required for the trip."
+    } , {
+        "code": "SPAN260418",
+        "name": "Southern Spain Plazas",
+        "length": "5 nights / 6 days",
+        "start": "2026-04-18T08:00:00Z",
+        "resort": "Hotel Alfonso XIII, 5 stars",
+        "perPerson": "1599.00",
+        "image": "Southern_Spain.jpg",
+        "description": "<p>Sevilla in the Spring and Fall is warm but not punishing. Visit the Plaza de Espana, and the Catedral de Santa Maria. </p> <p>Travel includes trips to close by Cordoba and Granada by AVE, to experience the Alhambra and the Mezquita. Evenings include spanish cuisine and traditional flamenco and sevillana dancing and music. "
+    } , {
+        "code": "VANC260725",
+        "name": "Vancouver Harbour",
+        "length": "4 nights / 5 days",
+        "start": "2026-07-25T08:00:00Z",
+        "resort": "Pan Pacific Waterfront, 4 stars",
+        "perPerson": "999.00",
+        "image": "Vancover_British_Columbia.jpg",
+        "description": "<p>City-based with day trips to Grouse Mountain and Stanley Park. Seaplane transfer to the harbour included, along with a guided food tour through Granville Island.<p/>"
+    } , {
+        "code": "VENI260221",
+        "name": "Venice Canals",
+        "length": "5 nights / 6 days",
+        "start": "2026-02-21T08:00:00Z",
+        "resort": "Gritti Palace, 5 stars",
+        "perPerson": "2499.00",
+        "image": "Venice_Italy.jpg",
+        "description":"<p>The most expensive trip in the catalog. Includes private water taxi transfers, a guided visit to Murano glass workshops, and reserved seating for Carnival events depending on departure date.<p/>"
+    }
+]
