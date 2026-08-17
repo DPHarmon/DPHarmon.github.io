@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <!-- TOP TOOLBAR -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1A1A1A"
+        android:padding="16dp"
+        android:paddingTop="32dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toolbarTitle"
+            android:textColor="#AAAAAA"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- MAIN ACTIVITY LAYOUT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <!-- Inventory Column Headers -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="#E0E0E0"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/itemName"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:letterSpacing="0.08"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/delete"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                android:gravity="center"
+                android:letterSpacing="0.08" />
+
+        </LinearLayout>
+
+        <!-- RECYCLER VIEW - INVENTORY LIST -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewInventory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="80dp" />
+
+    </LinearLayout>
+
+    <!-- FLOATING ACTION BUTTON - ADD NEW INVENTORY ITEM -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:contentDescription="@string/addItemButtonDescription"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="#1A1A1A"
+        app:tint="#FFFFFF"
+        tools:ignore="ClassNameCheck" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

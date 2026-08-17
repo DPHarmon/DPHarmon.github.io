@@ -1,0 +1,49 @@
+<resources>
+    <!-- Activity Login -->
+    <string name="app_name">CS360_Warehouse_Inventory_App</string>
+    <string name="appTitleName">Warehouse Inventory System</string>
+    <string name="fieldUsername">Username</string>
+    <string name="fieldPassword">Password</string>
+    <string name="hintUsername">Enter Your Username</string>
+    <string name="hintPassword">Enter Password</string>
+    <string name="buttonLogin">Log In</string>
+    <string name="bufferText">- or -</string>
+    <string name="buttonCreateAccount">Create New Account</string>
+    <string name="titlePageWarning">This Device is for Authorized Personnel Only</string>
+
+    <!-- Activity Inventory -->
+    <string name="toolbarTitle">Warehouse Inventory</string>
+    <string name="itemName">Item Name</string>
+    <string name="delete">DELETE</string>
+    <string name="addItem">Add Item</string>
+    <string name="addItemButtonDescription">Add New Inventory Item</string>
+
+    <!-- Item Inventory -->
+    <string name="dashSymbol">-</string>
+    <string name="defaultQuantity"> 0 </string>
+    <string name="addSymbol">+</string>
+    <string name="addButtonDescription">Increase Item Quantity</string>
+    <string name="decreaseButtonDescription">Decrease Item Quantity</string>
+    <string name="deleteButtonDescription"> Delete Inventory Item</string>
+
+    <!-- SMS PERMISSIONS -->
+    <string name="smsIcon">&#x1F4E6;</string>
+    <string name="smsIconDescription">Google Resource Package Icon</string>
+    <string name="smsPermissionTitle">Enable SMS Alerts</string>
+    <string name="smsPermissionDescription">APP needs permission to send SMS notification
+            when any inventory item runs low.</string>
+    <string name="ifDeniedTitle">If you deny</string>
+    <string name="ifDeniedDescription">The app will continue to work normally. You will
+            not receive a low stock notification.</string>
+    <string name="grantSmsAccess">Allow SMS Access</string>
+    <string name="denySmsAccess">Deny SMS Notifications</string>
+    <string name="smsPermissionFooter">You can change this permission at any time
+            in Android Settings -> Apps -> App Name -> Permissions</string>
+
+    <!-- ADD ITEM -->
+    <string name="addItemHint">e.g. LG 4k Monitor 27in</string>
+    <string name="newQuantityTitle">Quantity</string>
+    <string name="quantityHint">e.g. 17</string>
+
+
+</resources>

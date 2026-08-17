@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+    <!-- Icon -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="72dp"
+        android:minHeight="72dp"
+        android:text="@string/smsIcon"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/smsIconDescription" />
+
+    <!-- TITLE -->
+    <TextView
+        android:id="@+id/appPermissionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smsPermissionTitle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <!-- DESCRIPTION -->
+    <TextView
+        android:id="@+id/permissionDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/smsPermissionDescription"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginBottom="16dp" />
+
+    <!-- IF DENY PERMISSION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ifDeniedTitle"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#C62828"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ifDeniedDescription"
+            android:textSize="13sp"
+            android:textColor="#555555"
+            android:lineSpacingMultiplier="1.4" />
+
+    </LinearLayout>
+
+    <!-- GRANT PERMISSION BUTTON -->
+    <Button
+        android:id="@+id/buttonGrantSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:minWidth="210dp"
+        android:text="@string/grantSmsAccess"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1A1A1A"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/grantSmsAccess" />
+
+    <!-- DENY BUTTON -->
+    <Button
+        android:id="@+id/buttonDenySms"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:minWidth="210dp"
+        android:text="@string/denySmsAccess"
+        android:textSize="15sp"
+        android:textColor="#AAAAAA"
+        android:backgroundTint="#1A1A1A"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/denySmsAccess" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smsPermissionFooter"
+        android:textSize="11sp"
+        android:textColor="#B71C1C"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.4" />
+
+    </LinearLayout>
+</ScrollView>

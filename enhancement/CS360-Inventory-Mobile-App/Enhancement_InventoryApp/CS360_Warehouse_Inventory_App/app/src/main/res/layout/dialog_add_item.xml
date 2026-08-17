@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/itemName"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:textAllCaps="true"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="6dp" />
+
+    <EditText
+        android:id="@+id/editNewItemName"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="@string/addItemHint"
+        android:inputType="text"
+        android:autofillHints="off"
+        android:padding="12dp"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newQuantityTitle"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="6dp" />
+
+    <EditText
+        android:id="@+id/editNewItemQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="@string/quantityHint"
+        android:inputType="number"
+        android:autofillHints="off"
+        android:padding="12dp" />
+
+</LinearLayout>
