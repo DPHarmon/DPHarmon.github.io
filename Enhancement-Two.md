@@ -1,6 +1,6 @@
 [![Language](https://img.shields.io/badge/language-C++-blue.svg?style=for-the-badge&logo=cplusplus)](https://isocpp.org)
 [![IDE](https://img.shields.io/badge/ide-Visual_Studio-purple.svg?style=for-the-badge&logo=visualstudio)](https://visualstudio.microsoft.com)
-[![Structure](https://img.shields.io/badge/structure-AVL_Tree-orange.svg?style=for-the-badge&logo=treehouse)](https://en.wikipedia.org/wiki/AVL_tree)
+[![Structure](https://img.shields.io/badge/structure-AVL_Tree-orange.svg?style=for-the-badge&logo=treehouse)]( https://www.geeksforgeeks.org/dsa/introduction-to-avl-tree/)
 
 ---
 
