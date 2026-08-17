@@ -1,8 +1,3 @@
----
-layout: default
-title: "Enhancement One: Software Design and Engineering"
----
-
 [![Language](https://img.shields.io/badge/language-Java-blue.svg?style=for-the-badge&logo=openjdk)](https://www.java.com)
 [![Platform](https://img.shields.io/badge/platform-Android-green.svg?style=for-the-badge&logo=android)](https://developer.android.com)
 [![Database](https://img.shields.io/badge/database-Room_/_SQLite-orange.svg?style=for-the-badge&logo=sqlite)](https://developer.android.com/training/data-storage/room)
