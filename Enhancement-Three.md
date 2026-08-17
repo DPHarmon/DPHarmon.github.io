@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 [![Database](https://img.shields.io/badge/database-MongoDB-47A248.svg?style=for-the-badge&logo=mongodb)](https://www.mongodb.com)
 [![Runtime](https://img.shields.io/badge/runtime-Node.js-339933.svg?style=for-the-badge&logo=nodedotjs)](https://nodejs.org)
 [![Framework](https://img.shields.io/badge/framework-Express-000000.svg?style=for-the-badge&logo=express)](https://expressjs.com)
