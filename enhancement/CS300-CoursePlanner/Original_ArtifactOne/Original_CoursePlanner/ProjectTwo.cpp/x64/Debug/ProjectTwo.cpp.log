@@ -1,0 +1,4 @@
+﻿  ProjectTwo.cpp.cpp
+C:\Users\dylan\OneDrive\Desktop\ProjectTwo.cpp\ProjectTwo.cpp.cpp(188,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\dylan\OneDrive\Desktop\ProjectTwo.cpp\ProjectTwo.cpp.cpp(230,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  ProjectTwo.cpp.vcxproj -> C:\Users\dylan\OneDrive\Desktop\ProjectTwo.cpp\x64\Debug\ProjectTwo.cpp.exe
