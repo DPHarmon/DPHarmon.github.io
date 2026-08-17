@@ -1,0 +1,28 @@
+# Node
+node_modules/
+.angular/
+dist/
+
+# Visual Studio / C++
+.vs/
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.user
+
+# Android / Gradle
+.gradle/
+build/
+local.properties
+.idea/
+
+# Secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
